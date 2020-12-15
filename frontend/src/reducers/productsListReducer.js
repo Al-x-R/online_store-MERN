@@ -6,7 +6,7 @@ const initialState = {
     loading: false,
 };
 
-export const productListReducer = (state = initialState, action) => {
+export const productsListReducer = (state = initialState, action) => {
     switch (action.type) {
         case ACTION_TYPE.PRODUCT_LIST_REQUEST:
             return {
